@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="HelloWorld.utf" />
+          <option value="School.Teacher.sc" />
+          <option value="urllib.request" />
+          <option value="School.Student.wname" />
+          <option value="joke.permutation" />
+          <option value="School.Student.permutation" />
+          <option value="test.test1.*" />
+          <option value="test5" />
+          <option value="test2" />
+          <option value="tesst2" />
+          <option value="hello" />
+          <option value="tkMessageBox" />
+          <option value="MySQLdb" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
