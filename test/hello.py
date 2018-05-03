@@ -19,7 +19,7 @@ s.set_score(100)
 s2=Student()
 
 s.name='hha'
-
+print('ss')
 
 s.setage(25) # 调用实例方法
 

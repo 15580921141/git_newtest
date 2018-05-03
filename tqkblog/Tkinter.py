@@ -37,8 +37,9 @@ def answer():
 
 def callback():
     if tkinter.messagebox.askyesno('Verify', 'Really quit?'):
-	    quit()
-        # tkinter.messagebox.showwarning('Yes', 'Not yet implemented')
+	    # quit()
+	    # tkinter.messagebox.showinfo('Yes', 'Quit has been cancelled')
+        tkinter.messagebox.showwarning('Yes', 'Not yet implemented')
 
     else:
         tkinter.messagebox.showinfo('No', 'Quit has been cancelled')

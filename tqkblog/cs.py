@@ -7,33 +7,33 @@ class Person:
 	def __init__(self, name):
 		'''Initializes the person's data.'''
 		self.name = name
-		print '(Initializing % s)' % self.name
+		print('(Initializing % s)' % self.name)
 		# W hen this person is created, he/she
 		# adds to the population
 		Person.population += 1
 
 	def __del__(self):
 		'''I am dying.'''
-		print '% s says bye.' % self.name
+		print('% s says bye.' % self.name)
 		Person.population -= 1
 		if Person.population == 0:
-			print 'I am the last one.'
+			print('I am the last one.')
 		else:
-			print 'There are still % d people left.' % Person.population
+			print('There are still % d people left.' % Person.population)
 
 	def sayHi(self):
 		'''G reeting by the person.
 
 		Really, that's all it does.'''
-		print 'H i, m y nam e is % s.' % self.name
+		print('H i, m y nam e is % s.' % self.name)
 
 	def howMany(self):
 		'''Prints the current population.'''
 		if Person.population == 1:
-			print 'I am the only person here.'
+			print('I am the only person here.')
 		else:
-			print 'W e have % d persons here.' % Person.population
-print Person.__doc__
+			print('W e have % d persons here.' % Person.population)
+print(Person.__doc__)
 swaroop = Person('Swaroop')
 swaroop.sayHi()
 swaroop.howMany()

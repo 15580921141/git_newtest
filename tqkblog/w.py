@@ -7,7 +7,7 @@ def get_pic(path,num,proxies):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
     url='http://www.budejie.com/pic/{}'
     for i in range(1,num):
-        print u'正在爬取第%s页······'%i
+        print( u'正在爬取第%s页······'%i)
         rq=requests.get(url.format(i),headers=headers,proxies=proxies)
      #   print rq.status_code
       #  et=etree.HTML(rq.text)
